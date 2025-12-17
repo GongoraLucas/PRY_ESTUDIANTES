@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTUDIANTES</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body class="d-flex flex-column h-100">
+    <header class="container-fluid text-center py-3 bg-dark text-white">
+        <h1>PROGRAMACION WEB</h1>
+    </header>
+
+    <main class="bg-secondary  h-100  py-5 px-3 d-flex flex-column justify-content-center">
+
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" name="formId1" id="txt_calificacion" placeholder="" />
+            <label for="formId1">Ingresa un calificacion</label>
+        </div>
+        <div class="alert alert-danger d-none" id="mensaje_error">
+            Ingrese una nota correcta
+        </div>
+
+        <div class="d-grid gap-2">
+            <button type="button" name="" id="btn_agregar_calificacion" class="btn btn-primary">
+                Agregar
+            </button>
+        </div>
+        <hr class="border border-white">
+        <h2 class="text-white">Calificaciones</h2>
+        <div class=" alert alert-info" id="calificaciones">
+
+        </div>
+        <div class="row   g-3 mb-2">
+            <div class="col-4 ">
+                <div class="bg-success p-4 card">
+                    <h2 class="text-center fs-6 text-white">TOTAL APROBADOS</h2>
+                    <span class="text-white fw-bold text-center fs-2" id="aprobados">23</span>
+                </div>
+            </div>
+            <div class="col-4 ">
+                <div class="bg-warning p-4 card">
+                    <h2 class="text-center fs-6 text-white">TOTAL SUPLETORIO</h2>
+                    <span class="text-white fw-bold text-center fs-2" id="supletorios">23</span>
+                </div>
+            </div>
+            <div class="col-4 ">
+                <div class="bg-danger p-4 card">
+                    <h2 class="text-center fs-6 text-white">TOTAL REPROBADOS</h2>
+                    <span class="text-white fw-bold text-center fs-2" id="reprobados">23</span>
+                </div>
+            </div>
+        </div>
+        <div class="row g-3">
+            <div class="col-6">
+                <div class="bg-primary p-4 card ">
+                    <h2 class="text-center fs-6 text-white">PROMEDIO CURSO</h2>
+                    <span class="text-white fw-bold text-center fs-2" id="promedio">23</span>
+                </div>
+            </div>
+            <div class="col-6 ">
+                <div class="bg-primary p-4 card">
+                    <h2 class="text-center fs-6 text-white">ESTADO CURSO</h2>
+                    <span class="fw-bold text-center fs-2" id="estado">23</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="mt-auto container-fluid text-center py-2 bg-dark text-white ">
+        <p class="fs-5">Lucas Gongora - 2025</p>
+    </footer>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./public/js/script.js"></script>
+</body>
+
+</html>
