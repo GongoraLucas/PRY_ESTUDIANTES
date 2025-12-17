@@ -1,4 +1,4 @@
-Sistema de notas de un curso
+# Sistema de notas de un curso
 
 ## Instalacion
 1. git clone https://github.com/GongoraLucas/PRY_ESTUDIANTES.git
